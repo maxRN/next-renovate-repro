@@ -10,13 +10,20 @@
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["digest", "pin", "patch", "minor"],
       "groupName": "frontend",
-      "commitMessage": "[RENOVATE] Update FE dependencies"
+      "group": {
+        "prTitleStrict": true,
+        "commitMessagePrefix": "[RENOVATE]",
+        "commitMessageTopic": "FE dependencies",
+        "commitMessageExtra": "",
+        "commitMessageSuffix": ""
+      }
     },
     {
       "matchDatasources": ["npm"],
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["major"],
       "groupName": "frontend_major",
+      "prTitleStrict": true,
       "group": {
         "commitMessagePrefix": "[RENOVATE]",
         "commitMessageTopic": "FE major dependencies",
