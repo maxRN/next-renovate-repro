@@ -3,9 +3,6 @@ resources:
     - type: github
       name: renovate/renovate
       ref: refs/heads/main
-    - type: github
-      name: user/repo
-      ref: refs/tags/v0.5.1
   containers:
     - container: linux
       image: ubuntu:24.04
