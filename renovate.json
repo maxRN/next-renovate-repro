@@ -3,12 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "packageRules": [
-    {
-      "matchDatasources": ["azure-pipelines-tasks"],
-      "extractVersion": "^(?<version>\\d+)"
-    }
-  ],
   "azure-pipelines": {
       "enabled": true
   },
