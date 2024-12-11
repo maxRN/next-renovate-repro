@@ -54,6 +54,10 @@
     {
       "matchManagers": ["azure-pipelines"],
       "groupName": "azure_pipelines",
+      "commitMessagePrefix": "[RENOVATE]",
+      "commitMessageTopic": "Azure DevOps Pipelines",
+      "commitMessageExtra": "",
+      "commitMessageSuffix": "",
       "group": {
         "commitMessagePrefix": "[RENOVATE]",
         "commitMessageTopic": "Azure DevOps Pipelines",
