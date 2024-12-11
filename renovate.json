@@ -40,7 +40,7 @@
       "commitMessagePrefix": "[RENOVATE]",
       "commitMessageTopic": "Azure DevOps Pipelines",
       "commitMessageExtra": "",
-      "commitMessageSuffix": "",
+      "commitMessageSuffix": ""
     }
   ]
 }
