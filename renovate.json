@@ -14,6 +14,12 @@
     "azure-pipelines",
     "custom.regex"
   ],
+  "packageRules": [
+    {
+      "matchDatasources": ["azure-pipelines-tasks"],
+      "extractVersion": "^(?<version>\\d+)"
+    }
+  ],
   "azure-pipelines": {
       "enabled": true
   },
