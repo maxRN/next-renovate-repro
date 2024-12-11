@@ -33,6 +33,11 @@
         "commitMessageExtra": "",
         "commitMessageSuffix": ""
       }
+    },
+    {
+      "matchManagers": ["azure-pipelines"],
+      "groupName": "azure_pipelines",
+      "commitMessage": "[RENOVATE] Update Azure DevOps Pipelines"
     }
   ]
 }
