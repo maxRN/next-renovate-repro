@@ -3,6 +3,9 @@
   "extends": [
     "config:recommended"
   ],
+  "azure-pipelines": {
+      "enabled": true
+  },
   "extends": [":semanticCommitsDisabled"],
   "packageRules": [
       {
