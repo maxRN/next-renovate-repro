@@ -3,17 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "enabledManagers": [
-    "npm",
-    "gradle",
-    "gradle-wrapper",
-    "terraform",
-    "dockerfile",
-    "helm-values",
-    "argocd",
-    "azure-pipelines",
-    "custom.regex"
-  ],
   "packageRules": [
     {
       "matchDatasources": ["azure-pipelines-tasks"],
@@ -58,12 +47,6 @@
       "commitMessageTopic": "Azure DevOps Pipelines",
       "commitMessageExtra": "",
       "commitMessageSuffix": "",
-      "group": {
-        "commitMessagePrefix": "[RENOVATE]",
-        "commitMessageTopic": "Azure DevOps Pipelines",
-        "commitMessageExtra": "",
-        "commitMessageSuffix": ""
-      }
     }
   ]
 }
