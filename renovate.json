@@ -26,7 +26,6 @@
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["major"],
       "groupName": "frontend_major",
-      "prTitleStrict": true,
       "group": {
         "commitMessagePrefix": "[RENOVATE]",
         "commitMessageTopic": "FE major dependencies",
